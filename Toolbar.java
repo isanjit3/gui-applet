@@ -8,7 +8,6 @@ import java.awt.event.ActionListener;
 public class Toolbar extends JPanel implements ActionListener {
     private JButton helloButton;
     private JButton goodbyeButton;
-    private JButton warningButton;
 
     public Toolbar() {
         //This is a comment
