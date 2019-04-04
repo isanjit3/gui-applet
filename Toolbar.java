@@ -8,8 +8,10 @@ import java.awt.event.ActionListener;
 public class Toolbar extends JPanel implements ActionListener {
     private JButton helloButton;
     private JButton goodbyeButton;
+    private JButton warningButton;
 
     public Toolbar() {
+        //This is a comment
         helloButton = new JButton("Hello");
         goodbyeButton = new JButton("Goodbye");
 
@@ -22,7 +24,7 @@ public class Toolbar extends JPanel implements ActionListener {
     }
 
     public void setTextPanel(TextPanel textPanel) {
-       // TODO Auto-genenerated method stub
+
     }
 
     public void actionPerformed(ActionEvent e) {
