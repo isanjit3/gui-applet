@@ -10,7 +10,6 @@ public class Toolbar extends JPanel implements ActionListener {
     private JButton goodbyeButton;
 
     public Toolbar() {
-        //This is a comment
         helloButton = new JButton("Hello");
         goodbyeButton = new JButton("Goodbye");
 
